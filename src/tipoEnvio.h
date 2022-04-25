@@ -1,15 +1,16 @@
 #ifndef TIPOENVIO_H;
 #define TIPOENVIO_H;
 
-    class tipoEnvios{
-        private:
-
+    class tipoEnvio{
+        protected:
+        
+        float distancia;
         int peso;
         
         public:
-        virtual ~tipoEnvios();
+        virtual ~tipoEnvio();
 
         virtual float calculodeCosto() = 0;
     };
 
-#endif
+#endif 

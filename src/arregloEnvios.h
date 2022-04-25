@@ -4,17 +4,19 @@
 #include "tipoEnvio.h"
 #include <vector>
 
+using namespace std;
+
 class arregloEnvios {
 
-    vector<TipoEnvio *> totaldeEnvios;
+    vector<tipoEnvio *> totaldeEnvios;
 
     public:
         arregloEnvios();
         ~arregloEnvios();
 
-        void agregarEnvio(TipoEnvio *envio);
-        float obtenerTotalCosto();
+        void agregarEnvio(tipoEnvio *envio);
+        float obtenerTotalCosto(); 
 
-}
+};
 
 #endif
