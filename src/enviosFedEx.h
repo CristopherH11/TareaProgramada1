@@ -1,5 +1,5 @@
-#ifndef ENVIOFEDEX_H;
-#define ENVIOFEDEX_H;
+#ifndef ENVIOSFEDEX_H;
+#define ENVIOSFEDEX_H;
 
 #include "tipoEnvio.h"
 
@@ -8,7 +8,7 @@
 
         public:
 
-        enviosFedEx(float distancia, int peso);
+        enviosFedEx(int peso, float distancia);
         virtual float calculodeCosto(); 
 
     };
