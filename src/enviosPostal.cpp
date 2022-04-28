@@ -37,6 +37,7 @@ float enviosPostal::calculodeCosto(){
             return 0.0120*distancia;
 
         default:
+            return 0;
 
     }
 }

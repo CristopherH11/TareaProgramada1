@@ -1,5 +1,5 @@
-#ifndef ARREGLOENVIOS_H;
-#define ARREGLOENVIOS_H;
+#ifndef ARREGLOENVIOS_H
+#define ARREGLOENVIOS_H
 
 #include "tipoEnvio.h"
 #include <vector>

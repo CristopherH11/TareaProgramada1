@@ -1,5 +1,5 @@
-#ifndef ENVIOSFEDEX_H;
-#define ENVIOSFEDEX_H;
+#ifndef ENVIOSFEDEX_H
+#define ENVIOSFEDEX_H
 
 #include "tipoEnvio.h"
 

@@ -1,5 +1,5 @@
-#ifndef ENVIOPOSTAL_H;
-#define ENVIOPOSTAL_H;
+#ifndef ENVIOPOSTAL_H
+#define ENVIOPOSTAL_H
 
 #include "tipoEnvio.h"
 

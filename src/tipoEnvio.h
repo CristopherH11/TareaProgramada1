@@ -1,5 +1,5 @@
-#ifndef TIPOENVIO_H;
-#define TIPOENVIO_H;
+#ifndef TIPOENVIO_H
+#define TIPOENVIO_H
 
     class tipoEnvio{
         protected:
