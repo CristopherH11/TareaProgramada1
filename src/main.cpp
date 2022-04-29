@@ -21,7 +21,7 @@ int main(){
     enviosPostal* envio4 = new enviosPostal(1, 1, 880);
     envios->agregarEnvio(envio4);
 
-    cout << "El total de costo de los envios es: " << envios->obtenerTotalCosto();
+    cout << "El total de costo de los envios es: " << envios->obtenerTotalCosto() << endl;
 
     delete envios;
 
